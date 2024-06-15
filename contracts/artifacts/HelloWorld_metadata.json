@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "file_path",
+			"details": "ContractDescription",
+			"kind": "dev",
+			"methods": {},
+			"title": "ContractName",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HelloWorld.sol": {
+			"keccak256": "0x4a36ce89fc83574de2483680142fa3628f329acc46e2a1bb2851f3a9de16e739",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a10731af228483655fdcb8b7305ade62c99519ff4bd2c46ea4c129f43acf1bf",
+				"dweb:/ipfs/QmWHZsBUivBBYgUnZhszyGd1x7bTqwzeBfgKXZuf93AbuN"
+			]
+		}
+	},
+	"version": 1
+}
